@@ -1,2 +1,4 @@
-n=input("Enter a number"))
-print(n[0::2])
+n=input("Enter a number")
+for i in n:
+  if (int(i)%2)!=0:
+    print(i,"\t")
