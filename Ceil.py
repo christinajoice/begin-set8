@@ -1,3 +1,3 @@
-import Math
-a=float(input("Enter a number"))
-print(Math.ceil(a))
+import math
+a=float(input())
+print(math.ceil(a))
