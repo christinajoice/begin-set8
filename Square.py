@@ -1,9 +1,8 @@
 import math
-n=int(input("Enter a number"))
-m=int(input("Enter a number"))
+n,m=map(int,input().split())
 num=n*m
-i=int(math.sqrt(n))
-if n==(i*i):
-  print("perfect square");
+i=int(math.sqrt(num))
+if num==(i*i):
+  print("yes");
 else:
   print("no")
