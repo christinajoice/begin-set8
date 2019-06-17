@@ -1,7 +1,7 @@
-n=int(input("Enter a number"))
-l=int(input("Enter start range"))
-r=int(input("Enter end range"))
-if(n>l and n<r):
-  print("yes")
-else:
-  print("no")
+n=int(input())
+l=map(int,input().split())
+li=[int(i) for i in range(l+1,r)]
+  if n in li:
+    print("yes")
+  else:
+    print("no")
